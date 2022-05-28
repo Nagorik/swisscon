@@ -14,7 +14,11 @@
       }
 }
 @media only screen and (max-width: 557px) {
-
+.outcome-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 }
 
 

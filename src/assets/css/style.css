@@ -170,9 +170,7 @@ p {
   }
   .project-list-view .project-sub-menu {
     display: grid!important;
-    grid-template-columns: 1fr 1fr 1fr!important;
-    -moz-column-gap: 5px;
-    column-gap: 10px!important;
+    grid-template-columns: 1fr !important;
   }
   .result-outcome,.project-list-view,.address-view{
     margin-left:2px;
@@ -348,7 +346,7 @@ p {
     top:5%!important;
   }
   .outcome-content .title{
-    line-height: 36px!important;
+    line-height: 26px!important;
   }
   .result-outcome .col-md-3{
     margin-bottom: 5px;
@@ -640,9 +638,9 @@ and (max-device-width: 1080px) {
   }
   .project-list-view .project-sub-menu {
     display: grid!important;
-    grid-template-columns: 1fr 1fr!important;
-    -moz-column-gap: 5px;
-    column-gap: 5px!important;
+    grid-template-columns: 1fr!important;
+    max-height: 20rem;
+    overflow: auto;
   }
   .proleft-main-menu.region .swiss-list-menu{
     width:100%!important;
