@@ -381,16 +381,17 @@ ul.swiss-nav,ul.swiss-sub-nav {
 .donors {
     display: block;
     position: absolute;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255);
     border-radius: 30px;
     top: 17%;
     left: 10%;
     width: 80%!important;
-    height: 58%;
+    height: 53%;
     width: 100%;
     justify-content: center;
     align-items: center;
     padding: 10px;
+    overflow: auto;
 }
 .donors .donors-main{
   border-radius: 28px;

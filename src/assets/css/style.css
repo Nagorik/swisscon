@@ -263,6 +263,7 @@ p {
   }
 }
 @media (min-width: 320px) and (max-width: 680px) {
+  .swiss-list-menu { max-width: 300px !important; }
   .swiss-remark-menu img{
     height:180px;
     max-width:120px;
@@ -296,8 +297,9 @@ p {
     top:2%;
   }
   .organizers-content .organizer-content,.beneficiary-section .beneficiar-content{
-    height: 80%!important;;
-    overflow-y: auto;
+    height: calc(100vh - 20px);
+    overflow-y: scroll;
+    padding-top: 20px;
   }
   .project-section{
     padding:2px;
