@@ -274,7 +274,7 @@ export default {
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
-  text-align: justify;
+  text-align: center;
   text-transform: uppercase;
   margin-bottom: 0;
   /* white */
@@ -390,13 +390,13 @@ export default {
   color: #00477a;
 }
 .project-list-view .project-sub-menu li a {
-  font-family: "Cabin";
+  font-family: "Calibri";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 29px;
   /* text-align: justify; */
-  text-transform: uppercase;
+   text-transform: uppercase;
 
   /* Secondary Text Color */
 
@@ -405,10 +405,10 @@ export default {
 
 .project-list-view .project-sub-menu {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     /* justify-content: center; */
-    -moz-column-gap: 10px;
-    column-gap: 10px;
+    -moz-column-gap: 0px;
+    column-gap: 0px;
     place-content: center;
     align-content: center;
     align-items:start;
