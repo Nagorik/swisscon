@@ -49,7 +49,7 @@
             <p>Editorial Remark</p>
           </div>
           <div class="swiss-main-menu remark" v-if="remark">
-              <div class="swiss-list-menu" v-if="editorial && editorial.length">
+              <div class="swiss-list-menu text-remark" v-if="editorial && editorial.length">
             <div class="swiss-remark-menu">
               <div class="swiss-menu-item">
                 <img :src="editorial[0].image" alt="">
@@ -332,8 +332,8 @@ export default {
   .swiss-main-menu.work .swiss-list-menu::before{
   left:55%;
 }
-.swiss-list-menu{
-  left:2rem
+  .sdg .swiss-list-menu{
+      left:2rem
    }
    .swiss-sdg-menu .swiss-menu-item{
      width: 90%;

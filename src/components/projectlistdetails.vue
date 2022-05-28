@@ -274,7 +274,7 @@ export default {
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
-  text-align: justify;
+  text-align: center;
   text-transform: uppercase;
   margin-bottom: 0;
   /* white */

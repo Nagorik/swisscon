@@ -14,11 +14,35 @@
       }
 }
 @media only screen and (max-width: 557px) {
-.outcome-content{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    .outcome-content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
+
+@media only screen and (min-width: 1400px){
+    .swiss-list-menu{
+        max-width: 100vw;
+        padding-right: 37%;
+        background: transparent;
+    }
+    .swiss-list-menu .swiss-remark-menu{
+        max-width: 100%;
+        background: rgba(222, 222, 222, 0.95);
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1399px){
+    .swiss-list-menu{
+        max-width: 100vw;
+        padding-right: 40%;
+        background: transparent;
+    }
+    .swiss-list-menu .swiss-remark-menu{
+        max-width: 100%;
+        background: rgba(222, 222, 222, 0.95);
+    }
 }
 
 
