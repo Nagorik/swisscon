@@ -202,11 +202,11 @@ export default {
 }
 .proleft-main-menu.sdg .swiss-list-menu::before{
   bottom: 21%;
-  left: -3.2%;
+  left: -32px;
 }
 .proleft-main-menu.work .swiss-list-menu::before{
    bottom: 40px;
-  left: -4.7%;
+  left: -31px;
 }
 .proleft-main-menu .swiss-list-menu::before{
     content: '';
