@@ -33,6 +33,7 @@ require('./assets/css/all.min.css');
 require('./assets/css/bootstrap.min.css');
 require('./assets/css/home.css');
 require('./assets/css/style.css');
+require('./assets/css/responsive.css');
 //
 Vue.use(BootstrapVue)
 Vue.use(VueLodash, { name: 'custom' , lodash: lodash })

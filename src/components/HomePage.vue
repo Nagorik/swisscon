@@ -328,6 +328,17 @@ export default {
   bottom:-8%;
   left:51%;
 }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .swiss-main-menu.work .swiss-list-menu::before{
+  left:55%;
+}
+.swiss-list-menu{
+  left:2rem
+   }
+   .swiss-sdg-menu .swiss-menu-item{
+     width: 90%;
+   }
+}
 .swiss-list-menu{
   display: flex;
   flex-direction: column;

@@ -163,7 +163,7 @@ p {
     width:96%;
   }
   .swiss-main-menu.work{
-    right:-103%;
+    right:-133%;
   }
   .swiss-list-menu .swiss-sdg-menu{
     grid-template-columns: 1fr 1fr!important;
@@ -198,6 +198,12 @@ p {
     width:70%!important;
     left:15%!important;
   }
+  .swiss-sdg-menu .swiss-menu-item{
+    margin: 0;
+  }
+  .swiss-main-menu.sdg{
+    right: -17%;
+  }
 }
 @media (min-width: 992px) and (max-width: 1248px) {
   .swiss-list-menu .swiss-sdg-menu{
@@ -221,6 +227,10 @@ p {
     left:7%;
     bottom:1%;
   }
+  .swiss-menu-item p{
+    font-size: 15px ;
+}
+
 }
 @media (min-width: 320px) and (max-width: 380px) {
   .project-bottom{

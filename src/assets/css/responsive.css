@@ -3,7 +3,15 @@
 
 }
 @media only screen and (max-width: 768px) {
-
+    .swiss-menu-item img{
+        margin-top: 5px;
+    }
+    .swiss-sdg-menu .swiss-menu-item{
+        align-items: flex-start;
+      }
+      .swiss-menu-item p{
+          text-align: left;
+      }
 }
 @media only screen and (max-width: 557px) {
 
